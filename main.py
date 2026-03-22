@@ -7,10 +7,12 @@
 # -------------------------
 
 # TODO: Write your name inside the quotes
-student_name = ""
+student_name="jensen,:joey,:charlie,:lucas"
 
-print("Student Name:", student_name)
+print("")
 
+
+input()
 # -------------------------
 # Part 1 – Multiple Choice
 # -------------------------
@@ -19,13 +21,13 @@ print("Student Name:", student_name)
 # Example: answer1 = "A"
 
 # TODO: Write your answer for Question 1
-answer1 = ""
+answer1 = "B"
 
 # TODO: Write your answer for Question 2
-answer2 = ""
+answer2 = "A"
 
 # TODO: Write your answer for Question 3
-answer3 = ""
+answer3 = "B"
 
 print("Your answers:")
 print("Q1:", answer1)
