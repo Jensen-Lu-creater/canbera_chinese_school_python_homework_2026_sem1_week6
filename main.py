@@ -48,12 +48,12 @@ roll = 0
 while roll !=6:
 
     # TODO: Generate a random number between 1 and 6
-    num = random.randint(1,6) 
+    roll = random.randint(1,6) 
 
     # TODO: Print the dice number
-    print(num)
+    print(roll)
 
     # TODO: If the number is 6, print "Jackpot!"
-    if num == 6:
+    if roll == 6:
         print("Jackpot!")
     
