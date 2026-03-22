@@ -7,9 +7,9 @@
 # -------------------------
 
 # TODO: Write your name inside the quotes
-student_name="jensen,:joey,:charlie,:lucas"
+student_name="Jensen"
 
-print("")
+print(student_name)
 
 
 input()
@@ -45,13 +45,15 @@ import random
 roll = 0
 
 # TODO: Use a while loop so the game continues while the number is not 6
-
+while roll !=6:
 
     # TODO: Generate a random number between 1 and 6
-    
+    num = random.randint(1,6) 
 
     # TODO: Print the dice number
-    
+    print(num)
 
     # TODO: If the number is 6, print "Jackpot!"
-
+    if num == 6:
+        print("Jackpot!")
+    
